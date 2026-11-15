@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vishv Book Publication</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#f1f4fa;
+ font-family:Arial,sans-serif;color:#202b43;
+}
+header{
+ background:#172b55;color:white;
+ padding:24px 18px;border-radius:0 0 20px 20px;
+}
+header h2{margin:0;font-size:22px}
+header p{margin:7px 0 0;color:#d6e2ff}
+.container{padding:18px;max-width:700px;margin:auto}
+.card{
+ background:white;padding:18px;margin:14px 0;
+ border-radius:14px;
+ box-shadow:0 3px 12px #0000000c;
+}
+h3{margin:0 0 16px;color:#172b55}
+.info{
+ display:flex;justify-content:space-between;
+ gap:10px;padding:11px 0;
+ border-bottom:1px solid #edf0f5;
+ font-size:14px;
+}
+.info span:first-child{color:#68748a}
+.info strong{text-align:right;overflow-wrap:anywhere}
+.amount{font-size:30px;color:#172b55;font-weight:bold}
+.pending{color:#c47b00}
+.refund{color:#536987}
+footer{text-align:center;padding:20px;color:#718096;font-size:12px}
+</style>
+</head>
+<body>
+
+<header>
+<h2>Vishv Book Publication</h2>
+<p>Company Payment Dashboard</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h3>Customer Details</h3>
+<div class="info"><span>Full Name</span><strong>Chauhan Bhumika Ompalsingh</strong></div>
+<div class="info"><span>Mobile No.</span><strong>9428918952</strong></div>
+<div class="info"><span>House No.</span><strong>20</strong></div>
+<div class="info"><span>Area</span><strong>Swamibaug Society, Shashtri Road</strong></div>
+<div class="info"><span>City</span><strong>Bardoli</strong></div>
+<div class="info"><span>District</span><strong>Surat</strong></div>
+<div class="info"><span>PIN Code</span><strong>394601</strong></div>
+<div class="info"><span>State</span><strong>Gujarat</strong></div>
+</div>
+
+<div class="card">
+<h3>Payment Details</h3>
+<div class="info">
+<span>Delivery Charge</span>
+<strong>₹1,999</strong>
+</div>
+<div class="info">
+<span>Delivery Status</span>
+<strong class="pending">Pending</strong>
+</div>
+<div class="info">
+<span>Total Salary</span>
+<strong class="amount">₹14,499</strong>
+</div>
+</div>
+
+<div class="card">
+<h3>Refund Information</h3>
+<div class="info">
+<span>Refund Reminder</span>
+<strong>10 Minutes</strong>
+</div>
+<div class="info">
+<span>Refund Status</span>
+<strong class="refund">Not Confirmed</strong>
+</div>
+</div>
+
+</div>
+<footer>© Vishv Book Publication</footer>
+
+</body>
+</html>
